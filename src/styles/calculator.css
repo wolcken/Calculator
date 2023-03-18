@@ -1,0 +1,117 @@
+.calculator {
+    padding: 15% 2%;
+    background-color: rgb(12,12,12);
+    height: 100vh;
+}
+
+.title {
+    color: white;
+    margin-bottom: 5%;
+}
+
+.alert {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: not-allowed;
+    color: yellow;
+}
+
+.modal-content {
+    background-color: transparent;
+}
+
+.result {
+    padding: 0 5%;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+    margin: 5px;
+}
+
+.b1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.b2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.b3 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.b4 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.b5 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.b6 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.b7 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.b8 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.b9 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.b0 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.be {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.bpi {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.bclear {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.bresult {
+    grid-column: 4;
+    grid-row: 2 / 5;
+}
+
+@media (min-width: 640px) {
+    .calculator {
+        padding: 5% 15%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .calculator {
+        padding: 5% 25%;
+    }
+}
