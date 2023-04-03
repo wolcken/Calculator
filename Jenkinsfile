@@ -1,8 +1,8 @@
 pipeline {
-    agent any
+    agent 'some-different-node-label'
 
     tools {
-        nodejs "node"
+        nodejs "Node"
     }
 
     parameters {
